@@ -31,14 +31,24 @@ public:
 		int y = p1.y - p2.y;
 		return Point(x, y);
 	}
+	Point static operator -(Point p1, int value) {
+		int x = point.x - p2.x;
+		int y = point.y - p2.y;
+		return Point(x, y);
+	}
 	Point static operator +(Point point) {
 		int x = -point.x;
 		int y = -point.y;
 		return Point(-point.x, -point.y);
-
-
 	}
 
 	string info();
 };
+
+
+
+
+
+
+
 
